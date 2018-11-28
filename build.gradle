@@ -31,8 +31,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-devtools')
 
-    // Mustache - for html templates
-    compile('org.springframework.boot:spring-boot-starter-mustache')
+    // Freemarker - for html templates
+    compile('org.springframework.boot:spring-boot-starter-freemarker')
 
     // database
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
@@ -40,6 +40,9 @@ dependencies {
 
     // Spring security - for auth and reg
     compile("org.springframework.boot:spring-boot-starter-security")
+
+    // Gson
+    compile('com.google.code.gson:gson')
 
     testCompile("junit:junit")
 }
